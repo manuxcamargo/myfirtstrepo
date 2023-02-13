@@ -1,0 +1,19 @@
+body {
+    background-image: url("../imagens/vinnie.jpg");
+}
+
+#pa1 {
+    color: aqua;
+    text-align: center;
+    background-color: blueviolet;
+}
+#ta1 {
+    color:rgb(135, 108, 160)s;
+}
+#ta1{
+    font-family: courier;
+    font-size: 30px;
+}
+#fa1{
+    background-color:rgb(162, 234, 234);
+}

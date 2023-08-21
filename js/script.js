@@ -1,5 +1,43 @@
+class Form {
+    constructor (nome, email, idade, cidade, telefone, cpf) {
+        this.nome = nome;
+        this.email = email;
+        this.idade = idade;
+        this.cidade = cidade;
+        this.telefone = telefone;
+        this.cpf = cpf;
+    }
+}
 
-getZodiacSign() {
+class ListaPessoa {
+    constructor() {
+        this.pessoa = [];
+    }
+
+    adicionar(pessoa) {
+        this.pesosas.push(pessoa);
+    }
+}
+
+//const listaPessoas = new ListaPessoas();
+
+function criarPessoa() {
+    const id = document.getElementById("id").value;
+    const nome = document.getElementById("nome").value;
+    const email = document.getElementById("email").value;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*getZodiacSign() {
     let birthdate = new Date(this.birthdate);
     let day = birthdate.getDate();
     let month = birthdate.getMonth() + 1;
@@ -105,10 +143,4 @@ function sendErrorMsg(msg) {
         document.getElementById("error-msg").classList.add("hidden");
     }, 4000);
 }
-
-
-
-// how many functions are there? 12
-// how many classes are there? 2
-
-// Boa sorte!
+*/

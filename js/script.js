@@ -22,9 +22,19 @@ class ListaPessoa {
 //const listaPessoas = new ListaPessoas();
 
 function criarPessoa() {
-    const id = document.getElementById("id").value;
     const nome = document.getElementById("nome").value;
     const email = document.getElementById("email").value;
+    const idade = document.getElementById("idade").value;
+    const cidade = document.getElementById("cidade").value;
+    const telefone = document.getElementById("telefone").value;
+    const cpf = document.getElementById("cpf").value;
+
+    const pessoa = new Pessoa(nome, email, idade, cidade, telefone, cpf);
+
+    listaPessoas.adicionar(pessoa);
+
+    exibirPessoasNaTela();
+
 }
 
 
